@@ -10,6 +10,7 @@
     "@alifd/theme-2": "^0.0.16",
     "@alifd/theme-3": "^0.0.9",
     "@alifd/theme-4": "^0.0.7",
+    "@alifd/theme-6151": "^0.0.7",
     "antd-theme-generator": "^1.1.6",
     "autoprefixer": "^9.4.8",
     "babel-plugin-import": "^1.11.0",
