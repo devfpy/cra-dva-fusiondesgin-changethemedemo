@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Table } from '@alifd/next';
-import { TableComponent, TableSelectionMode } from './TableComponent';
-import UserJson from './userJson';
+import UserJson from './user.json';
+import {TableComponent, TableSelectionMode} from '../components/Table/TableComponent';
 
-export default class UserTable extends Component {
+
+export default class tableComponent extends Component {
 
     constructor(props) {
         super(props);
@@ -12,10 +13,11 @@ export default class UserTable extends Component {
             loading: true
         }
 
-        this.columnTemp = []
+        this.columnTemp = [];
     }
 
     componentDidMount() {
+
         this.loadUserData();
     }
 
@@ -49,12 +51,12 @@ export default class UserTable extends Component {
         return i;
     }
 
-    /**
+     /**
      * 处理合并行
      */
     statusColumnGetProps = (rowIndex, colIndex, dataIndex, record) => {
 
-        if (colIndex == 7) {
+        if (colIndex == 8) {
             let nowColumnValue = record.state;
             let rowSpan = this.mergeColumn(record.state, "state", rowIndex);
             return {
@@ -63,12 +65,9 @@ export default class UserTable extends Component {
                 text: nowColumnValue
             };
         }
-
-        
-
     }
 
-    /**
+     /**
      * render 状态列
      */
     renderUserStatusCell = (value, rowIndex, record, context) => {
@@ -99,6 +98,7 @@ export default class UserTable extends Component {
         
     }
 
+
     render() {
         return (
             <TableComponent
@@ -113,18 +113,18 @@ export default class UserTable extends Component {
                 tableOnSelect={this.tableOnSelect}
                 onSelectAll={this.onSelectAll}
                 paginationOnChange = {this.paginationOnChange}>
-                <Table.Column title="ID" dataIndex="id" />
-                <Table.ColumnGroup title="Group 01">
-                    <Table.Column title="UserName" dataIndex="userName" />
-                    <Table.Column title="Name" dataIndex="name" />
+                <Table.Column title="编号" dataIndex="id" />
+                <Table.Column title="用户名" dataIndex="userName" />
+                <Table.Column title="姓名" dataIndex="name" />
+                <Table.ColumnGroup title="扩展信息">
+                <Table.Column title="电话" dataIndex="tel" />
+                <Table.Column title="Email" dataIndex="mail" />
+                <Table.Column title="单位" dataIndex="unit" />
                 </Table.ColumnGroup>
-
-                <Table.Column title="Tel" dataIndex="tel" />
-                <Table.Column title="Email" dataIndex="id" />
-                <Table.Column title="Department" dataIndex="unitName" />
-                <Table.Column title="Status" dataIndex="state" cell={this.renderUserStatusCell} />
-                <Table.Column title="CreateTime" dataIndex="createTime" />
-                <Table.Column title="Operation" />
+                
+                <Table.Column title="创建时间" dataIndex="createTime" />
+                <Table.Column title="状态" dataIndex="state" cell={this.renderUserStatusCell} />
+                <Table.Column title="操作" />
             </TableComponent>
         )
     }

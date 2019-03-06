@@ -7,8 +7,7 @@
         "tel": "122",
         "name": "魏来",
         "state": 1,
-        "userName": "496435",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "496435"
     },
     {
         "id": 5,
@@ -19,8 +18,7 @@
         "tel": "911",
         "name": "超级管理员",
         "state": 1,
-        "userName": "admin",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "admin"
     },
     {
         "id": 78,
@@ -31,8 +29,7 @@
         "tel": "1122",
         "name": "范平阳",
         "state": 1,
-        "userName": "fanpingyang",
-        "password": "670b14728ad9902aecba32e22fa4f6bd"
+        "userName": "fanpingyang"
     },
     {
         "id": 79,
@@ -42,8 +39,7 @@
         "tel": "",
         "name": "测试用户",
         "state": 1,
-        "userName": "ceshiyonghu",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "ceshiyonghu"
     },
     {
         "id": 80,
@@ -53,8 +49,7 @@
         "tel": "asasa",
         "name": "asas",
         "state": 1,
-        "userName": "adsa",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "adsa"
     },
     {
         "id": 81,
@@ -65,8 +60,7 @@
         "tel": "",
         "name": "维保中心用户001",
         "state": 1,
-        "userName": "wbzz_user_001",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "wbzz_user_001"
     },
     {
         "id": 82,
@@ -76,8 +70,7 @@
         "tel": "",
         "name": "罗旭",
         "state": 1,
-        "userName": "luoxu",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "luoxu"
     },
     {
         "id": 83,
@@ -88,8 +81,7 @@
         "tel": "",
         "name": "维保中心领导",
         "state": 1,
-        "userName": "wbzx_user_01",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "wbzx_user_01"
     },
     {
         "id": 84,
@@ -100,8 +92,7 @@
         "tel": "",
         "name": "设备作业部-领导",
         "state": 1,
-        "userName": "sbzyb_user_01",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "sbzyb_user_01"
     },
     {
         "id": 85,
@@ -112,8 +103,7 @@
         "tel": "",
         "name": "物资装备部-领导",
         "state": 1,
-        "userName": "wzzbb_user_01",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "wzzbb_user_01"
     },
     {
         "id": 86,
@@ -124,8 +114,7 @@
         "tel": "",
         "name": "设备作业部组员001",
         "state": 1,
-        "userName": "sbzyb_user_02",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "sbzyb_user_02"
     },
     {
         "id": 87,
@@ -136,7 +125,6 @@
         "tel": "",
         "name": "作业班组-班长",
         "state": 1,
-        "userName": "zybz_user_01",
-        "password": "96e79218965eb72c92a549dd5a330112"
+        "userName": "zybz_user_01"
     }
 ]

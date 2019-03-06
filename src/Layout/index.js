@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from './layout_01';
 import HeaderBar from '../components/HeaderBar';
 import SideBar from '../components/SideBar';
+import MainModules from '../Modules';
 
 const header_height = 50;
 const footer_height = 38;
@@ -17,14 +18,12 @@ const SideBarView = (
 );
 
 const MainView = (
-    <div></div>
+    <MainModules></MainModules>
 );
 
 const FoterView = null
 
 export default class index extends Component {
-    
-
     render() {
         return (
             <Layout
