@@ -1,0 +1,142 @@
+[
+    {
+        "id": 3,
+        "createTime": "2017-11-08 12:00:00",
+        "unit": "100100010001",
+        "mail": "496435641@qq.com",
+        "tel": "122",
+        "name": "魏来",
+        "state": 1,
+        "userName": "496435",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 5,
+        "createTime": "2017-11-08 12:00:00",
+        "unit": "department_wbzx",
+        "mail": "",
+        "unitName": "维保中心",
+        "tel": "911",
+        "name": "超级管理员",
+        "state": 1,
+        "userName": "admin",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 78,
+        "createTime": "2018-08-27 00:00:00",
+        "unit": "department_sbzyb",
+        "mail": "",
+        "unitName": "设备作业部",
+        "tel": "1122",
+        "name": "范平阳",
+        "state": 1,
+        "userName": "fanpingyang",
+        "password": "670b14728ad9902aecba32e22fa4f6bd"
+    },
+    {
+        "id": 79,
+        "createTime": "2018-08-28 00:00:00",
+        "unit": "",
+        "mail": "",
+        "tel": "",
+        "name": "测试用户",
+        "state": 1,
+        "userName": "ceshiyonghu",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 80,
+        "createTime": "2018-08-28 00:00:00",
+        "unit": "",
+        "mail": "",
+        "tel": "asasa",
+        "name": "asas",
+        "state": 1,
+        "userName": "adsa",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 81,
+        "createTime": "2018-08-29 00:00:00",
+        "unit": "department_wbzx",
+        "mail": "",
+        "unitName": "维保中心",
+        "tel": "",
+        "name": "维保中心用户001",
+        "state": 1,
+        "userName": "wbzz_user_001",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 82,
+        "createTime": "2018-08-30 00:00:00",
+        "unit": "",
+        "mail": "",
+        "tel": "",
+        "name": "罗旭",
+        "state": 1,
+        "userName": "luoxu",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 83,
+        "createTime": "2018-09-02 00:00:00",
+        "unit": "department_wbzx",
+        "mail": "",
+        "unitName": "维保中心",
+        "tel": "",
+        "name": "维保中心领导",
+        "state": 1,
+        "userName": "wbzx_user_01",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 84,
+        "createTime": "2018-09-02 00:00:00",
+        "unit": "department_sbzyb",
+        "mail": "",
+        "unitName": "设备作业部",
+        "tel": "",
+        "name": "设备作业部-领导",
+        "state": 1,
+        "userName": "sbzyb_user_01",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 85,
+        "createTime": "2018-10-10 00:00:00",
+        "unit": "department_wzzbb",
+        "mail": "",
+        "unitName": "物资装备部",
+        "tel": "",
+        "name": "物资装备部-领导",
+        "state": 1,
+        "userName": "wzzbb_user_01",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 86,
+        "createTime": "2018-10-15 00:00:00",
+        "unit": "department_sbzyb",
+        "mail": "",
+        "unitName": "设备作业部",
+        "tel": "",
+        "name": "设备作业部组员001",
+        "state": 1,
+        "userName": "sbzyb_user_02",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    },
+    {
+        "id": 87,
+        "createTime": "2018-10-15 00:00:00",
+        "unit": "department_zybz_class01",
+        "mail": "",
+        "unitName": "作业班组-一班",
+        "tel": "",
+        "name": "作业班组-班长",
+        "state": 1,
+        "userName": "zybz_user_01",
+        "password": "96e79218965eb72c92a549dd5a330112"
+    }
+]

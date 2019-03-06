@@ -1,0 +1,18 @@
+$navbar-height: 55px !default;
+$footer-height: 36px !default;
+$sidebar-width: 200px !default;
+$aside-menu-width: 250px !default;
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.logo {
+    width: $navbar-height;
+    height: $navbar-height
+}
