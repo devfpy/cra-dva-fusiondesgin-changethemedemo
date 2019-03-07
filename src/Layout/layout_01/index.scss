@@ -13,7 +13,7 @@ $aside-menu-width: 250px !default;
 
 .app-header {
     position: fixed;
-    z-index: 1020;
+    z-index: 990;
     flex: 0 0 $navbar-height;
     padding: 0;
     margin: 0;
@@ -51,7 +51,7 @@ $aside-menu-width: 250px !default;
     }
     .sidebar {
         position: fixed;
-        z-index: 1021;
+        z-index: 991;
         width: $sidebar-width;
         top: $navbar-height;
         left: 0;
@@ -60,7 +60,7 @@ $aside-menu-width: 250px !default;
     }
     .app-footer {
         position: fixed;
-        z-index: 1020;
+        z-index: 990;
         width: 100%;
         height: $footer-height;
         display: flex;
