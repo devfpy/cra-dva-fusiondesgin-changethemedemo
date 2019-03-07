@@ -16,7 +16,7 @@ class index extends Component {
         SideBarFoldWidth: PropTypes.number.isRequired
     }
 
-    static defaultPropTypes = {
+    static defaultProps = {
         HeaderHeight: 50,
         FooterHeight: 30,
         SideBarWidth: 200,
