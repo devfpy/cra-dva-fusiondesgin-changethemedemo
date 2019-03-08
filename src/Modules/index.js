@@ -61,7 +61,7 @@ export default class index extends Component {
                             hasMask={true}
                             width="600px"
                             height ="400PX"
-                            type=""
+                            type="primary"
                             onClosed = {this.handleModalOnClosed}
                             onOk = {this.handleModalOnOk}>
                             <div>
